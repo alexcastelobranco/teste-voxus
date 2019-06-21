@@ -1,0 +1,23 @@
+{
+  "name": "teste-voxus",
+  "version": "1.0.0",
+  "description": "This is a interview test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcastelobranco/teste-voxus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcastelobranco/teste-voxus/issues"
+  },
+  "homepage": "https://github.com/alexcastelobranco/teste-voxus#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}

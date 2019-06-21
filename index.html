@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Voxus - Alex Castelo Branco</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+
+
+<body class="svg">
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-6">
+					<div class="logo">
+						<a href="#">
+							<img src="assets/logo.svg" title="Voxus" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class="welcome-text">
+					<h1>Você está a poucos passos de otimizar suas campanhas!</h1>
+					<p>Queremos conhecer mais sobre sua empresa para melhorar sua experiência com a Voxus.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class="box">
+					<form action="#" id="form">
+
+						<div class="row">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<input aria-label="Nome completo" type="text" name="nome_completo" id="name"
+									placeholder="Nome completo">
+							</div>
+						</div>
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<input aria-label="Telefone" type="text" name="telefone" id="telefone" placeholder="Telefone">
+							</div>
+						</div>
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<input aria-label="Endereço de e-mail" type="email" name="email" id="email"
+									placeholder="Endereço de e-mail">
+							</div>
+						</div>
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<input aria-label="Nome da empresa" type="email" name="nome_empresa" id="nome_empresa"
+									placeholder="Nome da empresa">
+							</div>
+						</div>
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<input aria-label="URL do site" type="text" name="url_site" id="url_site" placeholder="URL do site">
+							</div>
+						</div>
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6" style="padding: 0px 95px">
+								<select id="verba_mensal">
+									<option>Verba mensal em mídia</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row m-t-30">
+							<div class="col-12 col-sm-12 col-6 p-0-15">
+								<button type="submit" onclick="validate(event)">
+									Experimentar gratuitamente
+								</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="container">
+
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-12">
+				<div class="top-line">
+				</div>
+			</div>
+		</div>
+
+		<div class="row center">
+			<div class="col-md-2 col-sm-12 col-12">
+				<img src="./assets/logo_gray.svg" alt="">
+			</div>
+			<div class="col-md-2 col-sm-12 col-12">
+				<a href="#">Termos de servico</a>
+			</div>
+			<div class="col-md-2 col-sm-12 col-12">
+				<a href="#">Politica de privacidade</a>
+			</div>
+			<div class="col-md-2 col-sm-12 col-12">
+				<a href="#">Opções de anúncio</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="./scripts/form.js"></script>
+	<script src="./scripts/init.js"></script>
+</body>
+
+</html>
